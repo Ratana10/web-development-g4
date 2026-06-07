@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damita Chamroeun Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .header-text {
+            color: rgb(194, 194, 194);
+        }
+
+        .header-text-name {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+
+        header {
+            background-color: rgb(57, 74, 125);
+            color: white;
+        }
+
+        .group-header {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            padding: 60px;
+            margin: 0 auto;
+            max-width: 900px;
+        }
+
+        .contact-bar {
+            background-color: rgb(218, 218, 218);
+            color: rgb(57, 74, 125);
+        }
+
+        .contact-bar ul {
+            display: flex;
+            flex-direction: row;
+            gap: 80px;
+            list-style: none;
+            justify-content: center;
+        }
+
+        main {
+            padding: 40px 40px 40px 60px;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            max-width: 900px;
+            margin: 0 auto;
+            gap: 50px;
+        }
+
+        .section-title {
+            border-bottom: 3px solid rgb(173, 173, 173);
+            margin-bottom: 15px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .awards {
+            border-left: 2px solid rgb(173, 173, 173);
+            padding-left: 8px;
+            margin-bottom: 20px;
+        }
+
+        .awards h5 {
+            color: rgb(57, 74, 125);
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .awards .date-badge {
+            background-color: rgb(57, 74, 125);
+            color: rgb(208, 208, 208);
+            font-size: 14px;
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 20px;
+            letter-spacing: 1px;
+        }
+
+        .content .date-badge {
+            background-color: rgb(57, 74, 125);
+            color: rgb(208, 208, 208);
+            font-size: 14px;
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            margin-bottom: 6px;
+        }
+
+        .content h5 {
+            color: rgb(57, 74, 125);
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .content ul {
+            color: black;
+            padding-left: 16px;
+            line-height: 2;
+            margin-bottom: 8px;
+
+        }
+
+        .content-profile {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .volunteer {
+            font-size: 16px;
+            line-height: 2;
+        }
+
+        .volunteer .badge {
+            background-color:rgb(57, 74, 125);
+            color: rgb(208, 208, 208);
+            padding: 4px 12px;
+            border-radius: 20px;
+            display: inline-block;
+            letter-spacing: 1px;
+            gap: 10px;
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+
+        .lang-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .lang-dot {
+            width: 10px;
+            height: 10px;
+            background-color:rgb(57, 74, 125);
+            border-radius: 100%;
+        }
+
+        .dot-group {
+            display: flex;
+            gap: 5px;
+        }
+
+        .lang-dot-grey {
+            width: 10px;
+            height: 10px;
+            background-color:rgb(175, 175, 175);
+            border-radius: 100%;
+        }
+
+        footer {
+            text-align: center;
+            color: lightgray;
+            background-color: rgb(57, 74, 125);
+            padding: 16px;
+
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            border: 4px solid rgb(194, 194, 194);
+            overflow: hidden;
+            
+        }
+
+        .avatar img {
+            width: 115px;
+            height: 135px;
+        }
+
+
+        .nunito-font {
+            font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 2px;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body class="nunito-font">
+    <header>
+        <div class="group-header"> 
+            <div class="avatar">
+                <img width="100" height="120" src="./formal_picture.png" alt="Profile Picture">
+            </div> 
+            <div class="header-text">
+                <h1 class="header-text-name">DAMITA CHAMROEUN</h1>
+                <p class="header-text">Student</p>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="contact-bar">
+        <ul>
+            <li>📍 Sydney, Australia</li>
+            <li>📞 +61 469 057 468</li>
+            <li>📧 chamroeundamitaaa@gmail.com</li>
+
+        </ul>
+    </div>
+
+    <main>
+        <!-- left column -->
+        <div>
+            <div class="section">
+                <h3 class="section-title">Languages</h3>
+                <div class="lang-row">
+                    <p>Khmer</p>
+                    <div class="dot-group">
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                    </div> 
+                </div>
+
+                <div class="lang-row">
+                    <p>English</p>
+                    <div class="dot-group">
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                    </div>   
+                </div>
+
+                <div class="lang-row">
+                    <p>Chinese</p>
+                    <div class="dot-group">
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot"></div>
+                        <div class="lang-dot-grey"></div>
+                    </div> 
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">Extracurricular Activities</h3>
+                <div class="content">
+                    <ul>
+                        <li>Badminton Club in American University of Phnom Penh</li>
+                        <li>Coding Club (Bytebuilders) in AUPP</li>
+                        <li>Chinese Culture Club in AUPP</li>
+                        <li>Sports Event Management Club AUPP</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">Awards</h3>
+                <div class="awards">
+                    <h5>🏆 Grade A on the Khmer National Exam, BACII</h5>
+                    <p class="date-badge">2025-2025</p>
+                </div>
+                <div class="awards">
+                    <h5>🏆 ALEKS Certificate for Elementary Statistics</h5>
+                    <p class="date-badge">2024-2025</p>
+                </div>
+                <div class="awards">
+                    <h5>🏆 Outstanding student award of Grade 11</h5>
+                    <p class="date-badge">2023-2024</p>
+                </div>
+                <div class="awards">
+                    <h5>🏆 Outstanding student award of Grade 12</h5>
+                    <p class="date-badge">2024-2025</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- right column -->
+        <div>
+            <div class="section">
+                <h3 class="section-title">Profile</h3>
+                <p class="content-profile">I am a dedicated student studying Bachelor of Software Engineering at Torrens
+                    University Australia. I
+                    am passionate about studying and learning new things, and I am always eager to take on new
+                    challenges along the road. I am a hard worker and a fast learner, and I am always looking for ways
+                    to improve myself. My hobbies include studying, playing games and playing badminton.</p>
+            </div>
+
+            <div class="section">
+                <h3 class="section-title">Education</h3>
+                <div class="content">
+                    <div>
+                        <h5>New Gateway International School</h5>
+                        <p class="date-badge">2012-2025</p>
+                        <ul>
+                            <li>High School Diploma</li>
+                            <li>Khmer National Exam</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>American University of Phnom Penh</h5>
+                        <p class="date-badge">2025-2026</p>
+                        <ul>
+                            <li>Foundation Studies: Bachelor of Software Development</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h5>Torrens University Australia</h5>
+                        <p class="date-badge">2026-Present</p>
+                        <ul>
+                            <li>Bachelors of Software Engineering, Artificial Intelligence</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <h3 class="section-title">Experience</h3>
+                <div class="content">
+                    <h5>Volunteering at AUPP</h5>
+                    <p class="date-badge">2025-2026</p>
+
+                    <h5>Volunteered for various events at AUPP: </h5>
+                    <div class="volunteer">
+                        <p class="badge">MC for the Love Relay</p>
+                        <p class="badge">Volunteer for Local Ground Market Fair</p>
+                        <p class="badge">Volunteer for the Welcome Back Party</p>
+                        <p class="badge">Volunteer for the Pre-graduation pictorial 2026</p>
+                        <p class="badge">Volunteer for Songkran Event</p>
+                    </div>
+
+                </div>
+            </div>
+
+    </main>
+
+    <footer>
+        © 2026 Chamroeun Damita
+    </footer>
+
+</body>
+
+</html>
